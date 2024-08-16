@@ -5,93 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
     <meta name="renderer" content="webkit"/>
     <title>ʜᴀ͟ᴘ͟ᴘ͟ʏ ᴇᴠᴇʀʏᴅᴀʏ̆̈.</title>
-    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
-    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2.0.0/dist/css/mdui.min.css">
   </head>
-  
+
   <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
-  <mdui-button class="btn">点我</mdui-button>
-  <script>
-    document.querySelector('.btn').addEventListener('click', () => {
-      mdui.snackbar({ message: '点击了按钮' });
-    });
-  </script>
-      
+
+    <!-- 按钮 -->
+    <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme">点我</button>
+
     <!-- 导航栏 -->
     <div class="mdui-appbar mdui-appbar-fixed">
-        <div class="mdui-toolbar mdui-color-theme">
-            <a href="#" class="mdui-typo-title">&gt;&#95;&lt; HAPPY EVERYDAY.</a>
-            <div class="mdui-toolbar-spacer"></div>
-            <a href="#about" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">info</i></a>
-            <a href="#features" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">star</i></a>
-            <a href="#contact" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">contact_mail</i></a>
-        </div>
+      <div class="mdui-toolbar mdui-color-theme">
+        <a href="#" class="mdui-typo-title">ʜᴀ͟ᴘ͟ᴘ͟ʏ ᴇᴠᴇʀʏᴅᴀʏ̆̈.</a>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="#about" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">info</i></a>
+        <a href="#features" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">star</i></a>
+        <a href="#contact" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">contact_mail</i></a>
+      </div>
     </div>
 
-    <!-- 首页大图 -->
+    <!-- 简单的内容部分 -->
     <div class="mdui-container">
-        <div class="mdui-typo-display-3 mdui-text-center mdui-m-t-5">Hello~</div>
-        <p class="mdui-typo-subheading mdui-text-center">葡萄美酒夜光杯，OPPO A5炸我飞。</p>
-    </div>
-
-    <!-- 项目介绍 -->
-    <div id="about" class="mdui-container mdui-m-t-5">
-        <h2 class="mdui-typo-title mdui-text-center">666</h2>
-        <p class="mdui-typo mdui-text-center">炸坏桌子君莫笑，古来A5威力大。</p>
-    </div>
-
-    <!-- 特点展示 -->
-    <div id="features" class="mdui-container mdui-m-t-5">
-        <h2 class="mdui-typo-title mdui-text-center">花瓣澡</h2>
-        <div class="mdui-row mdui-m-t-3">
-            <div class="mdui-col-xs-12 mdui-col-sm-4">
-                <div class="mdui-card mdui-shadow-3 mdui-hoverable">
-                    <div class="mdui-card-primary">
-                        <div class="mdui-card-primary-title">系统UI 没有响应</div>
-                    </div>
-                    <div class="mdui-card-content">使用遥遥领先的Material Design 3风格，提供漂亮的UI</div>
-                </div>
-            </div>
-            <div class="mdui-col-xs-12 mdui-col-sm-4">
-                <div class="mdui-card mdui-shadow-3 mdui-hoverable">
-                    <div class="mdui-card-primary">
-                        <div class="mdui-card-primary-title">响应式布局</div>
-                    </div>
-                    <div class="mdui-card-content">不支持不同设备的自适应布局，确保在手机、平板和电脑上没有良好体验。</div>
-                </div>
-            </div>
-            <div class="mdui-col-xs-12 mdui-col-sm-4">
-                <div class="mdui-card mdui-shadow-3 mdui-hoverable">
-                    <div class="mdui-card-primary">
-                        <div class="mdui-card-primary-title">低性能</div>
-                    </div>
-                    <div class="mdui-card-content">无耻代码结构和资源加载，确保页面运行卡顿</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 联系我们 -->
-    <div id="contact" class="mdui-container mdui-m-t-5 mdui-m-b-5">
-        <h2 class="mdui-typo-title mdui-text-center">骚扰</h2>
-        <form class="mdui-m-t-3">
-            <div class="mdui-textfield">
-                <label class="mdui-textfield-label">神金</label>
-                <input type="text" class="mdui-textfield-input"/>
-            </div>
-            <div class="mdui-textfield">
-                <label class="mdui-textfield-label">垃圾箱</label>
-                <input type="email" class="mdui-textfield-input"/>
-            </div>
-            <div class="mdui-textfield">
-                <label class="mdui-textfield-label">邮筒</label>
-                <textarea class="mdui-textfield-input"></textarea>
-            </div>
-            <button class="mdui-btn mdui-btn-raised mdui-color-theme mdui-ripple">886</button>
-        </form>
+      <div class="mdui-typo-display-3 mdui-text-center mdui-m-t-5">Hello~</div>
+      <p class="mdui-typo-subheading mdui-text-center">葡萄美酒夜光杯，OPPO A5炸我飞。</p>
     </div>
 
     <!-- 引入 MDUI JS -->
-    <script src="https://cdn.jsdelivr.net/npm/mdui@2.0.0/dist/js/mdui.min.js"></script>
-</body>
+    <script src="https://unpkg.com/mdui@2.0.0/dist/js/mdui.min.js"></script>
+  </body>
 </html>
