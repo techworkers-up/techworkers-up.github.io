@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
     <meta name="renderer" content="webkit"/>
-
+    <title>ʜᴀ͟ᴘ͟ᴘ͟ʏ ᴇᴠᴇʀʏᴅᴀʏ̆̈.</title>
     <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
     <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
-    <title>ʜᴀ͟ᴘ͟ᴘ͟ʏ ᴇᴠᴇʀʏᴅᴀʏ̆̈.</title>
   </head>
+  
   <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
-
+  <mdui-button class="btn">点我</mdui-button>
+  <script>
+    document.querySelector('.btn').addEventListener('click', () => {
+      mdui.snackbar({ message: '点击了按钮' });
+    });
+  </script>
+      
     <!-- 导航栏 -->
     <div class="mdui-appbar mdui-appbar-fixed">
         <div class="mdui-toolbar mdui-color-theme">
